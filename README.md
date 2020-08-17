@@ -30,3 +30,10 @@ Our greedy algorithm emulates real life decision making. At each step of plannin
 5) Remaining deliveries
 
 To improve speed, we used multithreading as well as parallelization where applicable.  
+
+### Simulated Annealing
+This algorithm is based off of real life chemical annealing. In chemistry, when the temperature is hot particles move fast and when the temperature is cold, particles slow down.
+Our algorithm uses a function of time to emulate the temperature as we are constraint by 45 seconds. When there is a lot of time on the clock, our algorithms will make rapid changes/mutations (fast particles). In this state, we accept all mutations to our solution, including ones that make the solution worse. As time runs low, we start to only accept better solutions.
+
+We used an inverse exponential model to represent our probability. See how the time is the x axis and at x = t = 0, the probablity is virtually 1 to accept **ANY** solution <br/>
+<img src="https://themathpage.com/aPreCalc/Pre_IMG/exp2.gif" width="435" height="241" />
