@@ -14,8 +14,19 @@ If we were to ignore **ALL*** of the logistics and simply consider the fact that
 2) The truck has a set weight capacity
 3) There may be multiple packages at a pickup. This rule also applies to drop offs
 4) The truck must start at a company truck depot and end at a company truck depot
+5) The algorithm only has 45 seconds to run
 
 ## Our Algorithm
 Our Algorithm consists of two parts
 1) A fast & brute force algorithm/greedy algorithm
 2) An optimization algorithm: [Simulated annealing](https://en.wikipedia.org/wiki/Simulated_annealing)
+
+### The Greedy Algorithm
+Our greedy algorithm emulates real life decision making. At each step of planning the route, the courier factors in several conditions
+1) Truck weight capacity
+2) Which packages are currently inside the truck
+3) Time between each destination
+4) Based on which packages are currently in inventory & which have not been picked up what are the legal moves?
+5) Remaining deliveries
+
+To improve speed, we used multithreading as well as parallelization where applicable.  
