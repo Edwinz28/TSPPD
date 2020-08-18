@@ -39,3 +39,4 @@ We used an inverse exponential model to represent our probability. See how the t
 <img src="https://themathpage.com/aPreCalc/Pre_IMG/exp2.gif" width="435" height="241" />
 
 #### Why We Use Probability To Accept Any Solution Inlcuding Bad Ones!
+![](Algorithm%20Graphics/SA Greedy 1.PNG)
