@@ -39,4 +39,9 @@ We used an inverse exponential model to represent our probability. See how the t
 <img src="https://themathpage.com/aPreCalc/Pre_IMG/exp2.gif" width="435" height="241" />
 
 #### Why We Use Probability To Accept Any Solution Inlcuding Bad Ones!
-![](Algorithm%20Graphics/SA Greedy 1.PNG)
+Let's look at the graph below. Let the x-axis represent the solution space and y axis represent the time. Our greedy solution will **RANDOMLY** insert us at a x position noted by the red dot. <br/>
+<img src="https://github.com/Edwinz28/TSPPD/blob/master/Algorithm%20Graphics/SA%20Greedy%201.png?raw=true" width="435" height="241" /><br/>
+If we were only to take **better** solutions, eventually we will reach a local minima not a global minima.
+<img src="https://github.com/Edwinz28/TSPPD/blob/master/Algorithm%20Graphics/SA%20Greedy%202.png?raw=true" width="435" height="241" /><br/>
+Thus if a probability of taking worse solution exist, it allows for an opportunity to overcome the hill and reach a global minima.
+<img src="https://github.com/Edwinz28/TSPPD/blob/master/Algorithm%20Graphics/SA%20Greedy%203.png?raw=true" width="435" height="241" /><br/>
