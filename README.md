@@ -47,6 +47,28 @@ Thus if a probability of taking worse solution exist, it allows for an opportuni
 <img src="https://github.com/Edwinz28/TSPPD/blob/master/Algorithm%20Graphics/SA%20Greedy%203.png?raw=true" width="435" height="241" /><br/>
 
 ##### Mutation Operators: The "Intersection Swap"
+In a nutshell, the intersection swap picks two random intersections and swaps positions.
+<img src="https://github.com/Edwinz28/TSPPD/blob/master/Algorithm%20Graphics/Intersection%20Swap.png?raw=true" width="435" height="241" /><br/>
+Not all swaps are legal (see list of conditions above), however since this only affects 2 nodes/intersections, many are indeed legal.
+
+##### Mutation Operators: 2 Opt
+Unlike the intersection swap, the 2 opt affects many more nodes/intersections. The 2 opt randomly chooses 2 nodes and swaps them and additionally reverses the order of nodes inbetween the selected intersections.
+<img src="https://github.com/Edwinz28/TSPPD/blob/master/Algorithm%20Graphics/2opt.png?raw=true" width="435" height="270" /><br/>
+This is a much larger mutation and results in significantly less legal combinations.
+
+#### In A Nutshell: Visualization
+Heres a gif I found online that best represents everything above. <br/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Travelling_salesman_problem_solved_with_simulated_annealing.gif" width="435" height="270" /><br/>
+
+### Results
+The following graph illustrates the effeciency of our algorithm with testcases containing hundreds of nodes.
+<img src="https://github.com/Edwinz28/TSPPD/blob/master/Algorithm%20Graphics/SA_Results.png?raw=true" width="435" height="270" /><br/>
+Our algorithm was extremely iterative with hundred of millions of combinations with a reasonable ratio of legal mutations. For smaller test cases (where n is smaller) we reach billions of combinations.
+
+Additionally, our team placed **12th** in the competition while remaining extremely competitive with everyone up until 3rd place.
+<img src="https://github.com/Edwinz28/TSPPD/blob/master/Algorithm%20Graphics/results.PNG?raw=true" width="435" height="270" /><br/>
+
+
 
 
 
