@@ -37,3 +37,5 @@ Our algorithm uses a function of time to emulate the temperature as we are const
 
 We used an inverse exponential model to represent our probability. See how the time is the x axis and at x = t = 0, the probablity is virtually 1 to accept **ANY** solution <br/>
 <img src="https://themathpage.com/aPreCalc/Pre_IMG/exp2.gif" width="435" height="241" />
+
+#### Why We Use Probability To Accept Any Solution Inlcuding Bad Ones!
